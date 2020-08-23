@@ -3,6 +3,7 @@
 A react app that creates customized Spotify playlists based on user's input for optimal jamming. 
 
 Check out a live demo [here](https://spicyspotifyplaylistgenerator.herokuapp.com/) and get listening! 
+Compatible with Chrome. 
 
 ### How it works
 1. Authenticates users through OAuth and gets a [Spotify access token](https://developer.spotify.com/documentation/general/guides/authorization-guide/). 
