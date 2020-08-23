@@ -1,13 +1,130 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'proxima-nova', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.App {
+  font-weight: bold;
+}
+
+* {
+  margin: 0; 
+  padding: 0; 
+  box-sizing: border-box;
+}
+
+main {
+  min-height: 100vh; 
+  padding: 25px;
+}
+
+.thing {
+  background-image: linear-gradient(46deg, #221B1A, #9B6093);
+  background-size: cover;
+  background-position: bottom;
+  
+}
+
+.stuffOnRight {
+  position: absolute;
+  top: 100px;
+  left: 150px;
+  outline:none; 
+  border: none;
+}
+
+.title {
+  color: white; 
+  font-size: 30px;
+  padding-bottom: 20px;
+  text-align: left;
+}
+
+.form {
+  padding-bottom: 10px;
+}
+
+.playlist {
+  position: absolute;
+  right: 150px;
+  top:100px;
+}
+
+input[type=submit] {
+  background-color: #20B954;
+  font-family: 'proxima-nova', sans-serif;
+  outline:none; 
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-border-radius: 80px;
+  border-radius: 80px;
+  margin-top: 10px;
+  
+}
+
+input[type=artists] {
+  height: 20px;
+  width: 250px;
+  border-radius: 15px;
+  padding: 12px 10px;
+  outline:none; 
+  border: none;
+  background-color: #221B1A;
+  color: white;
+}
+
+input[type=genre] {
+  height: 20px;
+  width: 250px;
+  border-radius: 15px;
+  padding: 12px 10px;
+  outline:none; 
+  border: none;
+  background-color: #221B1A;
+  color: white;
+}
+
+input[type=popularity] {
+  height: 20px;
+  width: 250px;
+  border-radius: 15px;
+  padding: 12px 10px;
+  outline:none; 
+  border: none;
+  background-color: #221B1A;
+  color: white;
+}
+
+input[type=danceability] {
+  height: 20px;
+  width: 250px;
+  border-radius: 15px;
+  padding: 12px 10px;
+  outline:none; 
+  border: none;
+  background-color: #221B1A;
+  color: white;
+  
+}
+
+input.inherit{font-family:inherit;}
+
+a.inherit{font-family:inherit;}
+
+a:link, a:visited {
+  background-color: #20B954;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  -webkit-border-radius: 80px;
+  border-radius: 80px; 
+}
+
+a:hover, a:active {
+  background-color: #20B954;
 }
